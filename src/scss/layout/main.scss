@@ -2,7 +2,9 @@
 @import "../abstract/_abstract-dir";
 @import "../layout/_layout-dir";
 *{
-   @include reset-list;
+    margin :0;
+    padding : 0;
+    box-sizing: border-box;
 }
 body{
     width:100vw;
