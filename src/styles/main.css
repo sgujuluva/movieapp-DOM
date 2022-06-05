@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=PT+Sans:ital@1&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap");
 @import url("./_var.scss");
 @import url("./_mixins.scss");
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#search {
+  padding: 0.5rem;
+  height: 1.7rem;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +25,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* font-family: "Inconsolata"; */
-  background-color: aqua;
+  font-family: "Inconsolata";
+  background-color: #34495e;
 }
 
 /*# sourceMappingURL=main.css.map */
