@@ -16,6 +16,27 @@ header {
   border-radius: 20px;
 }
 
+.main {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main .movie-list {
+  border: 2px solid red;
+  width: 30%;
+  height: 50%;
+  margin: 0.4rem;
+}
+.main .movie-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
